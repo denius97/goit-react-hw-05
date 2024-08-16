@@ -1,0 +1,25 @@
+.goBackLink {
+  margin-bottom: 25px;
+  display: block;
+}
+
+.movie {
+  border-bottom: 1px solid gray;
+  margin-bottom: 25px;
+  img {
+    max-width: 500px;
+  }
+}
+
+.adidtionalInfo {
+  border-bottom: 1px solid gray;
+  margin-bottom: 25px;
+}
+.active {
+  color: rgb(224, 39, 39);
+}
+
+.infoNavigation {
+  display: flex;
+  gap: 30px;
+}

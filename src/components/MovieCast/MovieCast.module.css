@@ -1,0 +1,11 @@
+.castList {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.castImg {
+  max-width: 200px;
+  min-height: 300px;
+  object-fit: cover;
+}

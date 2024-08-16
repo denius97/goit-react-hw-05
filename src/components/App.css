@@ -1,0 +1,12 @@
+#root {
+  width: 100%;
+  padding: 20px;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  display: block;
+}

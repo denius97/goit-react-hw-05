@@ -1,0 +1,21 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: rgb(228, 133, 10);
+  font-weight: 700;
+  border-bottom: 2px solid #d82828;
+  margin-bottom: 20px;
+
+  a {
+    font-size: 24px;
+  }
+}
+.nav {
+  display: flex;
+  gap: 20px;
+}
+.active {
+  color: rgb(224, 39, 39);
+  font-weight: 700;
+}
