@@ -1,8 +1,7 @@
 import { fetchTrendingMovie } from "../../services/api";
 import { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
 import MovieList from "../../components/MovieList/MovieList.jsx";
-import Navigation from "../../components/Navigation/Navigation.jsx";
+
 import Loader from "../../components/Loader/Loader.jsx";
 import toast, { Toaster } from "react-hot-toast";
 
@@ -28,7 +27,6 @@ const HomePage = () => {
   return (
     <div>
       <Toaster position="top-right" />
-      <Navigation />
       {isError && (
         <p className="errorMsg">Error, try again or reload the page...</p>
       )}

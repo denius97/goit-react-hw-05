@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { Routes, Route } from "react-router-dom";
 import { lazy, Suspense } from "react";
 const HomePage = lazy(() => import("../pages/HomePage/HomePage.jsx"));
@@ -13,10 +12,12 @@ import "./App.css";
 const MovieCast = lazy(() => import("./MovieCast/MovieCast.jsx"));
 const MovieReviews = lazy(() => import("./MovieReviews/MovieReviews.jsx"));
 import Loader from "./Loader/Loader.jsx";
+import Navigation from "./Navigation/Navigation.jsx";
 
 function App() {
   return (
     <>
+      <Navigation />
       <Suspense fallback={<Loader />}>
         <Routes>
           <Route path="/" element={<HomePage />} />
